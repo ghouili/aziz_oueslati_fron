@@ -1,0 +1,21 @@
+.sidebar {
+    background-color: #8C5AA0;
+    width: 255px;
+    transition: all 0.3s ease-in-out;
+    /* width: 85px; */
+}
+
+.sidebar__link {
+    position: relative;
+    animation: slide-in 0.4s forwards;
+}
+
+@keyframes slide-in {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0;
+    }
+}
